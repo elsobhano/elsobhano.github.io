@@ -2,96 +2,95 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Sobhan Asasi
+    - name: Location
+      value: Guildford, England
+    - name: Email
+      value: asasi.sobhan@gmail.com
     - name: Languages
-      value: English, German
+      value: English (IELTS 7.5), Persian (native)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Centre for Vision, Speech and Signal Processing (CVSSP)
+      institution: University of Surrey, Guildford, England
+      year: Jul. 2024 -
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - 'Thesis: "Sign Language Recognition and Translation"'
+        - 'Supervisor: Prof. Richard Bowden'
+    - title: Master of Science, Department of Electrical Engineering
+      institution: Sharif University of Technology, Tehran, Iran
+      year: Sep. 2021 - Dec. 2023
       description:
-        - Description 1.
-        - Description 2.
+        - 'Thesis: "Face Forgery Detection with using Local Correlation and Statistical Features"'
+        - 'Supervisors: Prof. Shahrokh Ghaemmaghami, Prof. Sajjad Amini'
+        - 'GPA: 4 (17.88 / 20)'
+    - title: Bachelor of Science, Department of Electrical Engineering
+      institution: Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran
+      year: Sep. 2017 - Aug. 2021
+      description:
+        - 'Thesis: "Simulation and Analysis of Optical OFDM Techniques"'
+        - 'Supervisor: Prof. Mohammad Javad Emadi'
+        - 'GPA: 3.8 (17.63 / 20)'
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Electronic Research Institute (ERI), Sharif University of Technology, Tehran, Iran
+      year: Apr. 2023 - Apr. 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Conducted research and development on machine learning and speech processing systems, focusing on dataset creation and model development for speech processing tasks.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Teaching Assistant - Machine Learning for Data Science
+      institution: University of Surrey
+      year: Feb. 2026 -
+      description:
+        - Led weekly lab sessions for MSc students on machine learning methods using Python and scikit-learn.
+        - Provided individual guidance on assignments, helping students debug code and connect theory to practice.
+        - Worked under the supervision of Dr. Alireza Tamaddoni Nezhad.
+    - title: Teaching Assistant - Applied Machine Learning
+      institution: University of Surrey
+      year: Feb. 2026 -
+      description:
+        - Supported lab sessions covering advanced deep learning methods, assisting students with practical exercises and coursework.
+        - Contributed to project creation, solution review, and grading.
+        - Worked under the supervision of Dr. Muhammad Rana and Dr. Anjan Dutta.
 
-- title: Honors and Awards
-  type: time_table
+- title: Technical Skills
+  type: nested_list
   contents:
-    - year: 1921
+    - title: Programming Languages
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Python (PyTorch, PyTorch Lightning, TensorFlow, Keras)
+        - MATLAB
+        - Bash script
+        - C++
+    - title: Technologies / Frameworks
       items:
-        - Max Planck Medal
+        - Linux
+        - Git
+        - Docker
+        - Flask
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Sign Language Recognition and Translation
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Gloss-free sign language translation.
+        - Cross-language transfer and motion-level representation learning.
+    - title: Computer Vision and Multimodal Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Video understanding and human motion modelling.
+        - Face forgery detection and media forensics.
 
-- title: Other Interests
+- title: Language Proficiency
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>English:</u> IELTS Overall Band Score 7.5 (Listening 8.5, Reading 6.5, Writing 7.0, Speaking 7.0).
+    - <u>Persian:</u> Native.

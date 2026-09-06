@@ -2,11 +2,23 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Courses I have supported as a teaching assistant at the University of Surrey.
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Machine Learning for Data Science
 
-Organize your courses by years, topics, or universities, however you like!
+_Teaching Assistant, University of Surrey — Feb. 2026 – present_
+
+- Led weekly lab sessions for MSc students on machine learning methods using Python and scikit-learn.
+- Provided individual guidance on assignments, helping students debug code and connect theory to practice.
+- Under the supervision of Dr. Alireza Tamaddoni Nezhad.
+
+## Applied Machine Learning
+
+_Teaching Assistant, University of Surrey — Feb. 2026 – present_
+
+- Supported lab sessions covering advanced deep learning methods, assisting students with practical exercises and coursework.
+- Contributed to project creation, solution review, and grading.
+- Under the supervision of Dr. Muhammad Rana and Dr. Anjan Dutta.

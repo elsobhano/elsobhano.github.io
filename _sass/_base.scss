@@ -738,6 +738,16 @@ footer.sticky-bottom {
       .preview {
       }
 
+      // Google Scholar citation badge, shown under the preview figure
+      .scholar-citations {
+        display: block;
+        margin-top: 0.5rem;
+
+        img {
+          max-width: 100%;
+        }
+      }
+
       .abbr {
         margin-bottom: 0.5rem;
 

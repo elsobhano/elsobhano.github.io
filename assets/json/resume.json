@@ -1,12 +1,11 @@
 {
   "basics": {
     "name": "Sobhan Asasi",
-    "label": "PhD Student",
+    "label": "PhD Researcher, CVSSP, University of Surrey",
     "image": "",
-    "email": "s.asasi@surrey.ac.uk",
-    "phone": "+447563046730",
+    "email": "asasi.sobhan@gmail.com",
     "url": "https://elsobhano.github.io/",
-    "summary": "",
+    "summary": "PhD researcher at the Centre for Vision, Speech and Signal Processing (CVSSP), University of Surrey, supervised by Prof. Richard Bowden. My thesis is on sign language recognition and translation, with a focus on gloss-free translation, motion-level knowledge transfer across sign languages, and transferable sign representations.",
     "location": {
       "city": "Guildford",
       "countryCode": "UK",
@@ -14,42 +13,84 @@
     },
     "profiles": [
       {
-        "network": "LinkdeIn",
-        "username": "Sobhan Asasi",
+        "network": "LinkedIn",
+        "username": "sobhan-asasi",
         "url": "https://www.linkedin.com/in/sobhan-asasi/"
+      },
+      {
+        "network": "GitHub",
+        "username": "elsobhano",
+        "url": "https://github.com/elsobhano"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Sobhan Asasi",
+        "url": "https://scholar.google.com/citations?user=hxqnGqoAAAAJ"
       }
     ]
   },
   "work": [
     {
+      "name": "University of Surrey",
+      "position": "Teaching Assistant — Machine Learning for Data Science",
+      "url": "https://www.surrey.ac.uk/",
+      "startDate": "2026-02",
+      "endDate": "",
+      "summary": "Supporting MSc teaching under the supervision of Dr. Alireza Tamaddoni Nezhad.",
+      "highlights": [
+        "Led weekly lab sessions for MSc students on machine learning methods using Python and scikit-learn.",
+        "Provided individual guidance on assignments, helping students debug code and connect theory to practice."
+      ]
+    },
+    {
+      "name": "University of Surrey",
+      "position": "Teaching Assistant — Applied Machine Learning",
+      "url": "https://www.surrey.ac.uk/",
+      "startDate": "2026-02",
+      "endDate": "",
+      "summary": "Supporting teaching under the supervision of Dr. Muhammad Rana and Dr. Anjan Dutta.",
+      "highlights": [
+        "Supported lab sessions covering advanced deep learning methods, assisting students with practical exercises and coursework.",
+        "Contributed to project creation, solution review, and grading."
+      ]
+    },
+    {
       "name": "Electronic Research Institute (ERI) at Sharif University of Technology",
-      "position": "Researcher",
+      "position": "Research Assistant",
       "url": "http://eri.sharif.edu/index_e.php",
-      "startDate": "2023-05",
-      "endDate": "2024-05",
-      "summary": "Conducted research and development on machine learning and speech processing systems, focusing on dataset creation and implementation of cutting-edge models.",
-      "highlights": ["Relativity"]
+      "startDate": "2023-04",
+      "endDate": "2024-04",
+      "summary": "Conducted research and development on machine learning and speech processing systems, focusing on dataset creation and model development for speech processing tasks.",
+      "highlights": ["Speech processing", "Dataset creation", "Model development"]
     }
   ],
   "education": [
     {
       "institution": "University of Surrey, CVSSP",
       "location": "Guildford, UK",
-      "url": "https://www.surrey.ac.uk/",
-      "area": "Computer Vision",
+      "url": "https://www.surrey.ac.uk/centre-vision-speech-signal-processing",
+      "area": "Sign Language Recognition and Translation",
       "studyType": "PhD",
       "startDate": "2024-07-01",
-      "endDate": ""
+      "endDate": "",
+      "score": "",
+      "courses": [
+        "Thesis: Sign Language Recognition and Translation",
+        "Supervisor: Prof. Richard Bowden"
+      ]
     },
     {
       "institution": "Sharif University of Technology",
       "location": "Tehran, Iran",
-      "url": "https://en.sharif.ir/",
+      "url": "https://en.sharif.edu/",
       "area": "Electrical Engineering",
       "studyType": "MSc",
       "startDate": "2021-09",
       "endDate": "2023-12",
-      "cources": [
+      "score": "GPA 4 (17.88 / 20)",
+      "courses": [
+        "Thesis: Face Forgery Detection with using Local Correlation and Statistical Features",
+        "Supervisors: Prof. Shahrokh Ghaemmaghami, Prof. Sajjad Amini",
         "Deep Learning",
         "Statistical Learning",
         "Speech Processing"
@@ -63,9 +104,11 @@
       "studyType": "BSc",
       "startDate": "2017-09",
       "endDate": "2021-08",
-      "cources": [
+      "score": "GPA 3.8 (17.63 / 20)",
+      "courses": [
+        "Thesis: Simulation and Analysis of Optical OFDM Techniques",
+        "Supervisor: Prof. Mohammad Javad Emadi",
         "Advanced Programming",
-        "Basic Programming",
         "Probability and Statistics",
         "Linear Algebra"
       ]
@@ -73,40 +116,69 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "SignSeek: Learning Transferable Representations for Sign Dictionary Retrieval",
+      "publisher": "arXiv preprint (arXiv:2609.03695)",
+      "releaseDate": "2026-09-03",
+      "url": "https://arxiv.org/abs/2609.03695",
+      "summary": "S. Asasi, O. M. Sincan, R. Bowden. Contrastive learning with Articulator Saliency-Guided Masking for cross-corpus sign dictionary retrieval, with zero-shot generalisation to unseen British Sign Language."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "SIGNET: Motion-Level Knowledge Transfer for Cross-Language Sign Language Translation",
+      "publisher": "European Conference on Computer Vision (ECCV)",
+      "releaseDate": "2026-06-26",
+      "url": "https://arxiv.org/abs/2606.28626",
+      "summary": "S. Asasi, O. M. Sincan, R. Bowden. Attention-based hand-prior aggregation with a gated fusion network, achieving state-of-the-art results on How2Sign, Phoenix14T, CSL-Daily and MeineDGS."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Gloss-free sign language translation: An unbiased evaluation of progress in the field",
+      "publisher": "Computer Vision and Image Understanding (CVIU), vol. 261, p. 104498",
+      "releaseDate": "2025-11-01",
+      "url": "https://doi.org/10.1016/j.cviu.2025.104498",
+      "summary": "O. M. Sincan, J. H. Low, S. Asasi, R. Bowden. A standardised re-implementation and evaluation of recent SLT models, showing that many reported gains diminish under consistent conditions."
+    },
+    {
+      "name": "Beyond Gloss: A Hand-Centric Framework for Gloss-Free Sign Language Translation",
+      "publisher": "British Machine Vision Conference (BMVC), Sheffield, UK",
+      "releaseDate": "2025-07-31",
+      "url": "https://arxiv.org/abs/2507.23575",
+      "summary": "S. Asasi, M. I. Lakhal, O. M. Sincan, R. Bowden. Fine-grained, temporally-aware textual descriptions of hand motion from Video LLMs, aligned with video features by a contrastive module during pre-training."
+    },
+    {
+      "name": "Hierarchical Feature Alignment for Gloss-Free Sign Language Translation",
+      "publisher": "ACM International Conference on Intelligent Virtual Agents (IVA), SLTAT Workshop",
+      "releaseDate": "2025-07-09",
+      "url": "https://arxiv.org/abs/2507.06732",
+      "summary": "S. Asasi, M. I. Lakhal, R. Bowden. A hierarchical pre-training strategy using pseudo-glosses and contrastive video-language alignment across frame, segment and video levels."
+    }
+  ],
+  "projects": [
+    {
+      "name": "BeyondGloss",
+      "summary": "Reference implementation of the hand-centric, gloss-free sign language translation framework presented at BMVC 2025.",
+      "highlights": ["Video LLMs", "Contrastive alignment", "Gloss-free SLT"],
+      "startDate": "2025-07-31",
+      "endDate": "",
+      "url": "https://github.com/elsobhano/BeyondGloss"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "C++", "MATLAB", "Bash script"]
+    },
+    {
+      "name": "Deep Learning",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["PyTorch", "PyTorch Lightning", "TensorFlow", "Keras", "scikit-learn"]
+    },
+    {
+      "name": "Technologies & Frameworks",
+      "level": "Advanced",
+      "icon": "fa-solid fa-screwdriver-wrench",
+      "keywords": ["Linux", "Git", "Docker", "Flask"]
     }
   ],
   "languages": [
@@ -117,44 +189,42 @@
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "IELTS Overall Band Score 7.5 (L 8.5, R 6.5, W 7.0, S 7.0)",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Sign Language Recognition and Translation",
+      "icon": "fa-solid fa-hands",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Gloss-free translation",
+        "Cross-language transfer",
+        "Sign dictionary retrieval",
+        "Motion representation learning"
+      ]
+    },
+    {
+      "name": "Computer Vision and Multimodal Learning",
+      "icon": "fa-solid fa-eye",
+      "keywords": [
+        "Video understanding",
+        "Vision-language models",
+        "Contrastive learning",
+        "Face forgery detection"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Prof. Richard Bowden",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Professor, Centre for Vision, Speech and Signal Processing (CVSSP), School of Computer Science and Electronic Engineering, University of Surrey, Guildford, England. Email: r.bowden@surrey.ac.uk"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Prof. Shahrokh Ghaemmaghami",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Professor, Department of Electrical Engineering and Electronics Research Institute, Sharif University of Technology, Tehran, Iran. Email: ghaemmag@sharif.edu"
     }
   ]
 }

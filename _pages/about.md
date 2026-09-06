@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Researcher at <a href='https://www.surrey.ac.uk/centre-vision-speech-signal-processing'>CVSSP</a>, University of Surrey.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: photo.jpeg
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>CVSSP, University of Surrey</p>
+    <p>Guildford, England</p>
+    <p>asasi.sobhan@gmail.com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +22,15 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD researcher at the [Centre for Vision, Speech and Signal Processing (CVSSP)](https://www.surrey.ac.uk/centre-vision-speech-signal-processing), University of Surrey, supervised by [Prof. Richard Bowden](https://www.surrey.ac.uk/people/richard-bowden). My thesis is on **sign language recognition and translation**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research focuses on gloss-free sign language translation: learning representations of sign directly from video, transferring motion-level knowledge across sign languages, and building models that do not depend on costly gloss annotation. I also work on sign dictionary retrieval and transferable sign representations. My work has appeared at ECCV, BMVC, ACM IVA and in CVIU.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before Surrey, I completed an MSc in Electrical Engineering at [Sharif University of Technology](https://en.sharif.edu/), where I worked on face forgery detection with Prof. Shahrokh Ghaemmaghami and Prof. Sajjad Amini, and a BSc in Electrical Engineering at [Amirkabir University of Technology](https://aut.ac.ir/en). I was also a research assistant at Sharif's Electronic Research Institute, working on machine learning for speech processing.
+
+Feel free to reach out by [email](mailto:asasi.sobhan@gmail.com) — my full [CV]({{ '/cv/' | relative_url }}) is also available here.
