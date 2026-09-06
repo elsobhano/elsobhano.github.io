@@ -42,19 +42,6 @@
           %}
         {% endif %}
       {% endif %}
-      {% if site.enable_publication_badges.google_scholar and entry.google_scholar_id %}
-        <a
-          class="scholar-citations"
-          href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
-          aria-label="Google Scholar link"
-          role="button"
-        >
-          <img
-            src="https://img.shields.io/badge/scholar-{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&labelColor=beige"
-            alt="{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %} Google Scholar citations"
-          >
-        </a>
-      {% endif %}
     </div>
   {% endif %}
 
