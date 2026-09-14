@@ -5,7 +5,7 @@
     "image": "",
     "email": "asasi.sobhan@gmail.com",
     "url": "https://elsobhano.github.io/",
-    "summary": "PhD researcher at the Centre for Vision, Speech and Signal Processing (CVSSP), University of Surrey, supervised by Prof. Richard Bowden. My thesis is on sign language recognition and translation, with a focus on gloss-free translation, motion-level knowledge transfer across sign languages, and transferable sign representations.",
+    "summary": "PhD researcher at the Centre for Vision, Speech and Signal Processing (CVSSP), University of Surrey, supervised by Prof. Richard Bowden. My thesis is on sign language recognition and translation, with a focus on gloss-free translation, motion-level knowledge transfer across sign languages, and transferable sign representations. I work on vision-language models and multimodal LLMs for sign language translation. First author at ECCV 2026, BMVC 2025 and ACM IVA 2025, co-author of an evaluation study in CVIU, and first author of a further preprint under review. Keywords: vision-language models, multimodal LLMs, video understanding, sign language translation, contrastive representation learning, cross-lingual transfer.",
     "location": {
       "city": "Guildford",
       "countryCode": "UK",
@@ -31,27 +31,18 @@
   },
   "work": [
     {
-      "name": "University of Surrey",
-      "position": "Teaching Assistant — Machine Learning for Data Science",
-      "url": "https://www.surrey.ac.uk/",
-      "startDate": "2026-02",
+      "name": "Centre for Vision, Speech and Signal Processing (CVSSP), University of Surrey",
+      "position": "Research Assistant",
+      "location": "Guildford, England",
+      "url": "https://www.surrey.ac.uk/centre-vision-speech-signal-processing",
+      "startDate": "2024-07",
       "endDate": "",
-      "summary": "Supporting MSc teaching under the supervision of Dr. Alireza Tamaddoni Nezhad.",
+      "summary": "Research on gloss-free sign language translation with vision-language models and multimodal LLMs, under the supervision of Prof. Richard Bowden.",
       "highlights": [
-        "Led weekly lab sessions for MSc students on machine learning methods using Python and scikit-learn.",
-        "Provided individual guidance on assignments, helping students debug code and connect theory to practice."
-      ]
-    },
-    {
-      "name": "University of Surrey",
-      "position": "Teaching Assistant — Applied Machine Learning",
-      "url": "https://www.surrey.ac.uk/",
-      "startDate": "2026-02",
-      "endDate": "",
-      "summary": "Supporting teaching under the supervision of Dr. Muhammad Rana and Dr. Anjan Dutta.",
-      "highlights": [
-        "Supported lab sessions covering advanced deep learning methods, assisting students with practical exercises and coursework.",
-        "Contributed to project creation, solution review, and grading."
+        "Own the full research stack for gloss-free sign language translation: data pipelines, pre-training of video-language models on large-scale datasets, multi-GPU training, and evaluation across multiple sign language corpora.",
+        "Devised a cross-language transfer method that lets a single model serve multiple sign languages, removing the per-language retraining that dataset-specific pipelines require.",
+        "Built a VideoLLM-based translation framework that generates fine-grained, temporally-aware descriptions of hand motion and contrastively aligns them with video features during pre-training.",
+        "Built a reproducible evaluation protocol that exposed systematic bias in previously reported gloss-free translation results, re-establishing a reliable baseline for the field."
       ]
     },
     {
@@ -61,7 +52,24 @@
       "startDate": "2023-04",
       "endDate": "2024-04",
       "summary": "Conducted research and development on machine learning and speech processing systems, focusing on dataset creation and model development for speech processing tasks.",
-      "highlights": ["Speech processing", "Dataset creation", "Model development"]
+      "highlights": [
+        "Covered dataset creation, model development, and multi-GPU training on downstream speech datasets.",
+        "Built a speech enhancement front-end for an ASR pipeline, trained so enhanced-speech embeddings match their clean-speech targets under environmental noise and reverberation; exported to ONNX for low-resource inference.",
+        "Designed a frame-level voice activity detector (CNN/RNN/FNN) to cut ASR compute and error, reaching higher accuracy than contemporary models with fewer parameters and lower CPU runtime."
+      ]
+    },
+    {
+      "name": "Sensifai",
+      "position": "Computer Vision Intern",
+      "location": "Belgium (Remote)",
+      "url": "https://www.sensifai.com/",
+      "startDate": "2021-11",
+      "endDate": "2022-01",
+      "summary": "Computer vision and OCR pipelines.",
+      "highlights": [
+        "Evaluated and adapted a modular licence plate recognition pipeline (TensorFlow SSD detector served through OpenCV DNN, CRAFT character detection, contour-based segmentation), extending it to additional plate templates and benchmarking end-to-end recognition accuracy.",
+        "Assessed a Pytesseract-based OCR pipeline for structured document extraction, locating target keywords and their associated values across PDFs of differing layouts, and adapted the extraction logic to support a new document template."
+      ]
     }
   ],
   "education": [
@@ -76,7 +84,8 @@
       "score": "",
       "courses": [
         "Thesis: Sign Language Recognition and Translation",
-        "Supervisor: Prof. Richard Bowden"
+        "Supervisor: Prof. Richard Bowden",
+        "Funding: fully funded under a Google.org grant to CVSSP (AI for the Global Goals Impact Challenge)"
       ]
     },
     {
@@ -91,6 +100,7 @@
       "courses": [
         "Thesis: Face Forgery Detection with using Local Correlation and Statistical Features",
         "Supervisors: Prof. Shahrokh Ghaemmaghami, Prof. Sajjad Amini",
+        "GPA: 17.88 / 20 (≈ 3.9 / 4.0)",
         "Deep Learning",
         "Statistical Learning",
         "Speech Processing"
@@ -108,6 +118,7 @@
       "courses": [
         "Thesis: Simulation and Analysis of Optical OFDM Techniques",
         "Supervisor: Prof. Mohammad Javad Emadi",
+        "GPA: 17.63 / 20 (≈ 3.8 / 4.0)",
         "Advanced Programming",
         "Probability and Statistics",
         "Linear Algebra"
@@ -117,7 +128,7 @@
   "publications": [
     {
       "name": "SignSeek: Learning Transferable Representations for Sign Dictionary Retrieval",
-      "publisher": "arXiv preprint (arXiv:2609.03695)",
+      "publisher": "arXiv preprint (arXiv:2609.03695) — under review",
       "releaseDate": "2026-09-03",
       "url": "https://arxiv.org/abs/2609.03695",
       "summary": "S. Asasi, O. M. Sincan, R. Bowden. Contrastive learning with Articulator Saliency-Guided Masking for cross-corpus sign dictionary retrieval, with zero-shot generalisation to unseen British Sign Language."
@@ -151,11 +162,29 @@
       "summary": "S. Asasi, M. I. Lakhal, R. Bowden. A hierarchical pre-training strategy using pseudo-glosses and contrastive video-language alignment across frame, segment and video levels."
     }
   ],
+  "awards": [
+    {
+      "title": "Ranked 40th of 3,500+ nationally — M.Sc. entrance exam (Konkoor)",
+      "date": "2021",
+      "awarder": "National Organization for Educational Testing, Iran",
+      "summary": "Electrical Engineering."
+    },
+    {
+      "title": "Ranked in the top 0.5% of 260,000+ nationally — B.Sc. entrance exam (Konkoor)",
+      "date": "2017",
+      "awarder": "National Organization for Educational Testing, Iran",
+      "summary": ""
+    }
+  ],
   "projects": [
     {
       "name": "BeyondGloss",
       "summary": "Reference implementation of the hand-centric, gloss-free sign language translation framework presented at BMVC 2025.",
-      "highlights": ["Video LLMs", "Contrastive alignment", "Gloss-free SLT"],
+      "highlights": [
+        "Video LLMs",
+        "Contrastive alignment",
+        "Gloss-free SLT"
+      ],
       "startDate": "2025-07-31",
       "endDate": "",
       "url": "https://github.com/elsobhano/BeyondGloss"
@@ -166,19 +195,36 @@
       "name": "Programming Languages",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
-      "keywords": ["Python", "C++", "MATLAB", "Bash script"]
+      "keywords": [
+        "Python",
+        "C++",
+        "MATLAB",
+        "Bash script"
+      ]
     },
     {
       "name": "Deep Learning",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
-      "keywords": ["PyTorch", "PyTorch Lightning", "TensorFlow", "Keras", "scikit-learn"]
+      "keywords": [
+        "PyTorch",
+        "PyTorch Lightning",
+        "TensorFlow",
+        "Keras",
+        "scikit-learn"
+      ]
     },
     {
       "name": "Technologies & Frameworks",
       "level": "Advanced",
       "icon": "fa-solid fa-screwdriver-wrench",
-      "keywords": ["Linux", "Git", "Docker", "Flask"]
+      "keywords": [
+        "Linux",
+        "Git",
+        "Docker",
+        "ONNX",
+        "Flask"
+      ]
     }
   ],
   "languages": [
@@ -194,6 +240,16 @@
     }
   ],
   "interests": [
+    {
+      "name": "Vision-Language Models and Multimodal LLMs",
+      "icon": "fa-solid fa-layer-group",
+      "keywords": [
+        "Video understanding",
+        "Vision-language pre-training",
+        "Contrastive representation learning",
+        "Cross-lingual transfer"
+      ]
+    },
     {
       "name": "Sign Language Recognition and Translation",
       "icon": "fa-solid fa-hands",

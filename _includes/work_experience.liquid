@@ -1,0 +1,44 @@
+{% comment %}
+  Renders a compact work-experience list on the about page from the same
+  assets/json/resume.json that drives the /cv/ page, so the two never drift.
+  Controlled by `work_experience` in the page front matter:
+    enabled: true
+    limit:   how many roles to show (leave blank for all)
+{% endcomment %}
+
+{% assign work = site.data.resume.work %}
+{% if page.work_experience.limit %}
+  {% assign work = work | slice: 0, page.work_experience.limit %}
+{% endif %}
+
+<div class="work-experience">
+  <ul class="list-unstyled">
+    {% for job in work %}
+      <li class="work-item">
+        <div class="work-dates">
+          {% assign start = job.startDate | split: '-' | join: '.' %}
+          {% if job.endDate and job.endDate != '' %}
+            {% assign end = job.endDate | split: '-' | join: '.' %}
+          {% else %}
+            {% assign end = 'Present' %}
+          {% endif %}
+          {{ start }} &ndash; {{ end }}
+        </div>
+        <div class="work-body">
+          <div class="work-position">{{ job.position }}</div>
+          <div class="work-name">
+            {% if job.url %}
+              <a href="{{ job.url }}" target="_blank" rel="noopener noreferrer">{{ job.name }}</a>
+            {% else %}
+              {{ job.name }}
+            {% endif %}
+            {% if job.location %}<span class="work-location">&middot; {{ job.location }}</span>{% endif %}
+          </div>
+          {% if job.summary and job.summary != '' %}
+            <div class="work-summary">{{ job.summary }}</div>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

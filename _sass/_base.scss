@@ -698,6 +698,67 @@ footer.sticky-bottom {
   }
 }
 
+// Work experience (about page)
+
+.work-experience {
+  margin-top: 1rem;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .work-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-bottom: 1rem;
+  }
+
+  .work-dates {
+    flex: 0 0 8.5rem;
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+
+  .work-body {
+    flex: 1 1 16rem;
+  }
+
+  .work-position {
+    font-weight: 500;
+  }
+
+  .work-name {
+    font-size: 0.95rem;
+
+    a {
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .work-location {
+    color: var(--global-text-color-light);
+  }
+
+  .work-summary {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.15rem;
+  }
+
+  @media (max-width: 576px) {
+    .work-dates {
+      flex: 0 0 100%;
+    }
+  }
+}
+
 // Publications
 
 .publications {

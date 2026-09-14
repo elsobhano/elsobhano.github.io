@@ -7,6 +7,13 @@ nav: true
 nav_order: 3
 ---
 
+## Fundamentals of Machine Learning
+
+_Teaching Assistant, University of Surrey — Feb. 2026 – present_
+
+- Led weekly lab sessions for MSc students covering Python and scikit-learn.
+- Contributed to project creation, solution review, and grading.
+
 ## Machine Learning for Data Science
 
 _Teaching Assistant, University of Surrey — Feb. 2026 – present_

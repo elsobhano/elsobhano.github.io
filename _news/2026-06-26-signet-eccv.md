@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**SIGNET: Motion-Level Knowledge Transfer for Cross-Language Sign Language Translation** accepted at **ECCV 2026**! :sparkles: [arXiv](https://arxiv.org/abs/2606.28626)
+**SIGNET: Motion-Level Knowledge Transfer for Cross-Language Sign Language Translation** accepted at ECCV 2026! :sparkles: [arXiv](https://arxiv.org/abs/2606.28626)
